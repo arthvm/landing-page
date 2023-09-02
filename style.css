@@ -50,10 +50,10 @@ a {
 
 .content.hero-section {
     padding: 5px 15%;
-    flex: auto;
+    flex: 1;
     flex-wrap: wrap;
     gap: 30px;
-    height: 350px;
+    min-height: 350px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,15 +62,18 @@ a {
 
 .hero-section-img-container {
     align-self: flex-end;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
 }
 
-.hero-section-img-container .hero-section-img{
-    flex: initial;
-    min-width: 50px;
-    max-width: 200px;
+img.hero-section-img {
+    width: 100%;
 }
 
 .hero-section-info {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -138,6 +141,7 @@ a {
     font-weight: bold;
 }
 
+/*QUOTE SECTION*/
 
 .quote-section {
     flex: auto;
