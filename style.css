@@ -51,6 +51,8 @@ a {
 .content.hero-section {
     padding: 5px 15%;
     flex: auto;
+    flex-wrap: wrap;
+    gap: 30px;
     height: 350px;
     display: flex;
     justify-content: space-between;
@@ -167,6 +169,7 @@ a {
     border: 1px solid #DF7100;
     border-radius: 12px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 58px;
